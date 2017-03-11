@@ -1,0 +1,239 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+.clear {
+	clear: both;
+}
+
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.display-block {
+	display: block;
+}
+
+.display-none {
+	display: none;
+}
+.center{
+	position: relative;
+}
+/*左边开始*/
+.bg{
+	width: 350px;
+	height: 1000px;
+	background-color:rgba(131, 175, 155, 0.4)
+}
+.left_side{
+	float: left;
+}
+.left_side-top{
+	padding: 50px 0;
+}
+.left_side-top p{
+	font: 35px/30px   "微软雅黑";
+	text-align: center;
+	margin-bottom: 10px;
+	opacity: 0.6;
+}
+.clock {
+	width: 300px;
+	height: 300px;
+	margin: 0 25px;
+	background: url(../img/clock.png) no-repeat;
+	position: relative;
+}
+
+.clock div {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.h {
+	background: url(../img/hour.png) no-repeat center center;
+}
+
+.m {
+	background: url(../img/minute.png) no-repeat center center;
+}
+
+.s {
+	background: url(../img/second.png) no-repeat center center;
+}
+.tip p{
+	text-align: center;
+	font: 20px/30px  "微软雅黑";
+	margin: 0 20px;
+}
+.serve p{
+	margin: 70px 70px;
+}
+/*内容开始*/
+.center{
+/*	position: relative;*/
+	height: 1000px;
+	background: url(../img/0.jpg) no-repeat;
+}
+/*中间开始*/
+.content{
+	float: left;
+	position: relative;
+	height: 1000px;
+	opacity: 0.9;
+}
+.menu-top{
+	position: absolute;
+	margin-left: 326px;
+	opacity: 0.8;
+}
+.nav{
+	width: 950px;
+	position: absolute;
+	left: 125px;
+	top: 200px;
+}
+.lis{
+	border: 1px solid #bbb;
+	background-color: white;
+}
+.lis ul{
+	background-color: white;
+	height: 40px;
+}
+.lis ul li{
+	float: left;
+	line-height: 40px;
+	padding: 0 50px;
+	border-right: 1px solid #bbb;
+}
+.lis ul li:hover{
+	cursor: pointer;
+}
+.menu-list{
+	background-color: white;
+	border: 1px solid #bbb;
+	overflow: scroll;
+	height: 600px;
+}
+.menu-list div{
+	width: 948px;
+	height: 400px;
+	display: none;
+}
+.menu-list div ul{
+	width: 200px;
+	height: 300px;
+	margin: 15px;
+	border: 1px solid black;
+	/*display: block;*/
+	float: left;
+}
+.menu-list .dv1 ul{
+	background: url(../img/nc1.jpg) top center no-repeat ;
+}
+.menu-list .dv2 ul{
+	background: url(../img/ss.jpg) top center no-repeat;
+}
+.menu-list .dv3 ul{
+	background: url(../img/pz.jpg) top center no-repeat;
+}
+.menu-list .dv4 ul{
+	background: url(../img/xx.jpg) top center no-repeat;
+}
+.menu-list div ul li{
+	margin-top: 210px;
+	margin-left: 10px;
+	position: relative;
+}
+.menu-list div ul li p{
+	color: red;
+	margin-top: 10px;
+}
+.menu-list div ul li input{
+	margin-top: 10px;
+	width: 20px;
+	height: 20px;
+}
+.menu-list div ul li .subadd{
+	width: 20px;
+	height: 24px;
+}
+.buy{
+	background-image: url(../img/buy.jpg);
+	width: 100px;
+	height: 27px;
+	border: none;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	cursor: pointer;
+}
+.orange{
+	color: orange;
+}
+/*右边开始*/
+.right_side{
+	float: right;
+}
+.right_side-top{
+	padding: 100px 0;
+}
+.right_side p{
+	font: 40px/30px  "微软雅黑";
+	text-align: center;
+	opacity: 0.6;
+	margin-bottom: 15px;
+}
+.interact{
+	height: 800px;
+}
+.interact button{
+	width: 100px;
+	height: 30px;
+	margin-left: 15px;
+	box-shadow: inset 0px 0px 5px #549e03;
+}
+.interact textarea{
+	margin-left: 15px;
+	background-color: #eee;
+	color : #777;
+}
+.message{
+	width: 340px;
+	height: 498px;
+	overflow: scroll;
+	border-left: 5px solid rgba(131, 175, 155, 0.4);
+	border-top: 5px solid rgba(131, 175, 155, 0.4);
+	background-color: #eee;
+}
+.message li{
+	width: 280px;
+	font: 24px/30px  "微软雅黑";
+	border-bottom: 1px dashed #111;
+	margin-left: 20px;
+}
+.message a{
+	float: right;
+	font: 12px/30px  "微软雅黑";
+}
+
